@@ -79,6 +79,7 @@ eduboss.lagou.com
 [http://eduboss.lagou.com](http://eduboss.lagou.com/)
 
 用户名：15510792995     密码：111111
+用户名：18201288771     密码：111111
 
 　
 

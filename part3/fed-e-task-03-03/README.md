@@ -13,66 +13,24 @@
 
 　　
 
-**说明**
+**说明：一定要完成下面3个练习，包含本模块「服务器部署的大部分问题」**
 
-作业所需服务器, 可以到下面地址购买,  0.1元使用3个月 (需要拉勾学员电话号码注册)
+[**练习一：服务器购买与初始化**](https://gitee.com/lagoufed/fed-e-questions/tree/master/part3/%E7%AC%94%E8%AE%B01-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B4%AD%E4%B9%B0%E4%B8%8E%E5%88%9D%E5%A7%8B%E5%8C%96)
 
- https://www.ucloud.cn/site/active/lagou.html
+- 作业所需服务器, 可以到下面地址购买,  0.1元使用3个月 (需要拉勾学员电话号码注册)
 
-**( 购买时，要选择 CentOS 系统 )**
+-  https://www.ucloud.cn/site/active/lagou.html
 
-　
+- ( 购买时，要选择 CentOS 系统 )
 
-#### 可能出现问题 ( 建议提前做好 )
+[**练习二：手动部署项目到服务器**](https://gitee.com/lagoufed/fed-e-questions/tree/master/part3/%E7%AC%94%E8%AE%B02-%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E7%BB%83%E4%B9%A0)
 
-**服务器端口访问设置:  界面设置 + 服务器防火墙服务设置**
+[**练习三：自动化部署项目到服务器**](https://gitee.com/lagoufed/fed-e-questions/tree/master/part3/%E7%AC%94%E8%AE%B03-%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8)
 
-参考:  https://juejin.cn/post/6904234342575407111#heading-0
 
-　　
 
-**服务器上安装 nvm 和 node**
 
-```shell
-# 1)编辑文件  
-vim  /etc/hosts
 
-# 2)文件中添加内容
-199.232.28.133  raw.githubusercontent.com
 
-# 3)保存退出
-ESC   :wq
-
-# 4)在服务器上安装 nvm   参考: https://github.com/nvm-sh/nvm
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-
-# 5)重启ssh终端后, 查看 nvm 版本
-nvm --version
-
-# 6)安装 Node.js lts 长期支持版
-nvm install --lts
-```
-
-**服务器上安装 pm2**
-
-```shell
-npm i pm2 -g
-```
-
-pm2  list         查看应用列表
-
-pm2  start      启动应用
-
-pm2  stop      停止应用
-
-pm2  reload   重载应用
-
-pm2  restart   重启应用
-
-pm2  delete    删除应用
-
-pm2  log   xx   查看出错日志    xx为应用名称
-
-**找不到 npm、pm2**
 
 　

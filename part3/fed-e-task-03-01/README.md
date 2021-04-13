@@ -56,15 +56,3 @@ let vm = new Vue({
 
 <img src="images/Ciqc1F7zUZ-AWP5NAAN0Z_t_hDY449.png" alt="Ciqc1F7zUZ-AWP5NAAN0Z_t_hDY449" style="zoom:50%;" />
 
-<b style="color:red">Snabbdom 版本升级过快, 新版本中 h、init 函数的引入方式如下：</b>
-
-```js
-import { h }    from 'snabbdom/build/package/h'
-import { init } from 'snabbdom/build/package/init'
-// 下面内容请按需导入
-import { classModule } from 'snabbdom/build/package/modules/class'
-import { propsModule } from 'snabbdom/build/package/modules/props.js'
-import { styleModule } from 'snabbdom/build/package/modules/style.js'
-import { eventListenersModule } from 'snabbdom/build/package/modules/eventlisteners.js'
-```
-

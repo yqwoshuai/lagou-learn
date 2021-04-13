@@ -24,7 +24,7 @@
 
 　
 
-**2、尝试使用 Gulp 完成项目的自动化构建**  ( **[先要作的事情](./notes/下载包是出错的解决方式.md)** )
+**2、尝试使用 Gulp 完成项目的自动化构建**  ( **[先要作的事情](https://gitee.com/lagoufed/fed-e-questions/blob/master/part2/%E4%B8%8B%E8%BD%BD%E5%8C%85%E6%98%AF%E5%87%BA%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F.md)** )
 
 (html,css,等素材已经放到code/pages-boilerplate目录)
 
