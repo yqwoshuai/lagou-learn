@@ -19,7 +19,7 @@
 
 - 作业所需服务器, 可以到下面地址购买,  0.1元使用3个月 (需要拉勾学员电话号码注册)
 
--  https://www.ucloud.cn/site/active/lagou.html
+-  https://www.ucloud.cn/site/active/lagou.html?ytag=lagou0910
 
 - ( 购买时，要选择 CentOS 系统 )
 
