@@ -2,9 +2,9 @@
 
 #### 作业要求:
 
- \- 有什么疑问找导师 
+ \- 有什么疑问找导师
 
- \- 使用 Gridsome 实现下面博客首页 .\- 以下两个二选一
+ \- 使用 Gridsome 实现下面博客首页 .\- 以下三个三选一
 
  \- 项目必须部署，不部署算不合格哈
 
@@ -12,9 +12,37 @@
 
  \- 注册必须使用拉勾平台注册的手机号
 
-  购买服务器地址   https://www.ucloud.cn/site/active/lagou.html
+  购买服务器地址   https://www.ucloud.cn/site/active/lagou.html?ytag=lagou0910
 
 
+
+#### Gridsome 无法安装, 项目无法创建, 请看下面
+
+在 gitee 上提供了安装好的 gridsome 框架，并且安装了视频中所有插件。克隆后直接使用。
+
+【windows 版本】
+
+```
+git clone https://gitee.com/2xx/my-gridsome.git
+```
+
+【博客练习要用的模板】
+
+```
+git clone https://gitee.com/2xx/gridsome-blog-html.git
+```
+
+【Mac 版本】
+
+```
+git clone https://gitee.com/2xx/gridsome.git
+```
+
+
+
+#### 选题0:
+
+ \- 完成老师课堂练习, 并成功部署到服务器上
 
 #### 选题1:
 
