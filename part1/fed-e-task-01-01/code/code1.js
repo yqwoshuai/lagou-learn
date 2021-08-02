@@ -13,3 +13,23 @@
   }, 10)
 */
 
+new Promise((resolve, reject) => {
+  setTimeout(function () {
+    var a = "hello";
+    resolve(a);
+  }, 10);
+})
+  .then((value) => {
+    return new Promise((resolve) => {
+      setTimeout(function () {
+        var b = "lagou";
+        resolve(value + b);
+      }, 10);
+    });
+  })
+  .then((value) => {
+    setTimeout(function () {
+      var c = "I ♥ U";
+      console.log(value + c);
+    }, 10);
+  });
